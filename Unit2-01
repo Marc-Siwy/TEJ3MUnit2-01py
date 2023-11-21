@@ -1,0 +1,12 @@
+Created by: Marc Siwy
+Created on: Nov 2023
+Blink Onboard LED on and off
+
+led_onboard = machine.Pin("LED", machine.Pin.OUT)
+
+
+    led_onboard.value(1)
+    sleep_ms(1000)
+    
+    led_onboard.value(0)
+    sleep_ms(1000) 
